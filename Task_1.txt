@@ -1,0 +1,3 @@
+1. Take an array of names using form. Copy the elements in reverse order into another array. Print both arrays. 
+
+
