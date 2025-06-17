@@ -1,0 +1,2 @@
+
+4. Write a PHP function power($number, $degree) that raises $number to the power of $degree using a for loop. Input: power(2, 4) Output: 16 Now take two integers using form and test the function. 
