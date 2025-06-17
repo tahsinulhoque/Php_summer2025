@@ -1,0 +1,4 @@
+3. Take multiple integers separated by commas using the form field and print frequency for each number. i.e. 1, 1, 2, 3, 1, 4, 2, 6 
+	Output: 
+	1 occurred 3 times 
+2 occurred 2 times and so on. 
