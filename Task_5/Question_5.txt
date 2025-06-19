@@ -1,0 +1,3 @@
+5. Write a PHP function validate password ($pass) that tests for following criteria:
+Length must be within 8-32 characters must contain at least one uppercase,one lowercase
+and one numeric character cannot contain any special character Test the function taking input from user. 
