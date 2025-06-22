@@ -1,0 +1,6 @@
+Write an HTML program to create a table displaying your favorite sports players with their 
+images,country, age, and major achievements."
+
+Or:
+
+"Create an HTML table that includes merged rows/columns using rowspan and colspan, and add images and hyperlinks in the table."
