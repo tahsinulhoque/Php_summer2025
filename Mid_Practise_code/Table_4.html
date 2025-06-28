@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complex HTML Table</title>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    img {
+      width: 100px;
+      height: auto;
+    }
+    button {
+      padding: 8px 15px;
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0b7dda;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center;">🧩 Full Feature HTML Table</h2>
+
+  <table>
+    <tr>
+      <th rowspan="2">Image</th>
+      <th colspan="2">User Info</th>
+      <th rowspan="2">Button</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Website</th>
+    </tr>
+    
+    <tr>
+      <td><img src="https://via.placeholder.com/100" alt="Profile"></td>
+      <td>Tahsinul Hoque</td>
+      <td><a href="https://www.linkedin.com/in/tahsinulhoque/" target="_blank">Visit LinkedIn</a></td>
+      <td><button onclick="alert('Hello from Tahsinul!')">Click Me</button></td>
+    </tr>
+
+    <tr>
+      <th colspan="4">About</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <p>Hello! I’m a passionate web developer skilled in frontend and backend. I love building modern, responsive websites and sharing knowledge through clean code.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <th colspan="2">Ordered List (Learning Steps)</th>
+      <th colspan="2">Unordered List (Hobbies)</th>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <ol>
+          <li>Learn HTML</li>
+          <li>Practice CSS</li>
+          <li>Master JavaScript</li>
+          <li>Build Projects</li>
+        </ol>
+      </td>
+      <td colspan="2">
+        <ul>
+          <li>Photography</li>
+          <li>Traveling</li>
+          <li>Gaming</li>
+          <li>Reading</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
