@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: rgb(14, 13, 13);
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: rgb(187, 187, 187);
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(252, 183, 183, 0.1);
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: square inside;
+    margin-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+  }
+  .about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-pic img {
+  max-width: 200px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1;
+}
+.skills-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skill-card {
+    flex: 1 1 calc(33% - 20px);
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .skill-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .skill-card p {
+    font-size: 0.95em;
+    color: #666;
+  }
+  .projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    flex: 1 1 calc(33% - 20px);
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .project-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .project-card p {
+    font-size: 0.95em;
+    color: #666;
+  }
+  .hero-header {
+    background-image: url('https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-header::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif; 
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    font-family: 'Times New Roman', serif;
+  }
+  
